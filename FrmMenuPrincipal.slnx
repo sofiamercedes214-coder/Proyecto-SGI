@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="../../Inicio_DE_Sesion/Iniciodesesion.csproj" />
+  <Project Path="../../Modulo3/Modulo3/Proveedores.csproj" Id="73039276-2c21-4a94-90d2-91bbb526b1c2" />
+  <Project Path="../../Movimiento/RA6 Lalbel/Movimientos.csproj" Id="08c0435f-4f89-49b3-a149-0bb955522943" />
+  <Project Path="../../ProductosSGI/ProductosSGI/ProductosSGI.csproj" Id="69747d9d-7147-4c16-91ab-6e6327b9f9a0" />
+  <Project Path="../../pupuReportes/WindowsFormsApp4/Reporte_Costospormovimiento.csproj" Id="ca91190f-be36-4eb8-a857-31e91a708f41" />
+  <Project Path="../../WindowsFormsApp2/WindowsFormsApp2/WindowsFormsApp2/WindowsFormsApp2.csproj" Id="dbb817b6-a1fc-4399-a2c7-15f2298af631" />
+  <Project Path="Menu principal.csproj" />
+</Solution>

@@ -1,0 +1,17 @@
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\bin\Debug\net9.0-windows\Menu principal.exe
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\bin\Debug\net9.0-windows\Menu principal.deps.json
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\bin\Debug\net9.0-windows\Menu principal.runtimeconfig.json
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\bin\Debug\net9.0-windows\Menu principal.dll
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\bin\Debug\net9.0-windows\Menu principal.pdb
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\FrmMenuPrincipal.FrmMenuPrincipal.resources
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu principal.csproj.GenerateResource.cache
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu principal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu principal.AssemblyInfoInputs.cache
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu principal.AssemblyInfo.cs
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu principal.csproj.CoreCompileInputs.cache
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu principal.dll
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\refint\Menu principal.dll
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu principal.pdb
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu principal.genruntimeconfig.cache
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\ref\Menu principal.dll
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu pri.6ABD981A.Up2Date

@@ -1,0 +1,33 @@
+C:\Users\Massiel\Downloads\FrmMenuPrincipal\bin\Debug\net9.0-windows\FrmMenuPrincipal.exe
+C:\Users\Massiel\Downloads\FrmMenuPrincipal\bin\Debug\net9.0-windows\FrmMenuPrincipal.deps.json
+C:\Users\Massiel\Downloads\FrmMenuPrincipal\bin\Debug\net9.0-windows\FrmMenuPrincipal.runtimeconfig.json
+C:\Users\Massiel\Downloads\FrmMenuPrincipal\bin\Debug\net9.0-windows\FrmMenuPrincipal.dll
+C:\Users\Massiel\Downloads\FrmMenuPrincipal\bin\Debug\net9.0-windows\FrmMenuPrincipal.pdb
+C:\Users\Massiel\Downloads\FrmMenuPrincipal\obj\Debug\net9.0-windows\FrmMenuPrincipal.FrmMenuPrincipal.resources
+C:\Users\Massiel\Downloads\FrmMenuPrincipal\obj\Debug\net9.0-windows\FrmMenuPrincipal.csproj.GenerateResource.cache
+C:\Users\Massiel\Downloads\FrmMenuPrincipal\obj\Debug\net9.0-windows\FrmMenuPrincipal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Massiel\Downloads\FrmMenuPrincipal\obj\Debug\net9.0-windows\FrmMenuPrincipal.AssemblyInfoInputs.cache
+C:\Users\Massiel\Downloads\FrmMenuPrincipal\obj\Debug\net9.0-windows\FrmMenuPrincipal.AssemblyInfo.cs
+C:\Users\Massiel\Downloads\FrmMenuPrincipal\obj\Debug\net9.0-windows\FrmMenuPrincipal.csproj.CoreCompileInputs.cache
+C:\Users\Massiel\Downloads\FrmMenuPrincipal\obj\Debug\net9.0-windows\FrmMenuPrincipal.dll
+C:\Users\Massiel\Downloads\FrmMenuPrincipal\obj\Debug\net9.0-windows\refint\FrmMenuPrincipal.dll
+C:\Users\Massiel\Downloads\FrmMenuPrincipal\obj\Debug\net9.0-windows\FrmMenuPrincipal.pdb
+C:\Users\Massiel\Downloads\FrmMenuPrincipal\obj\Debug\net9.0-windows\FrmMenuPrincipal.genruntimeconfig.cache
+C:\Users\Massiel\Downloads\FrmMenuPrincipal\obj\Debug\net9.0-windows\ref\FrmMenuPrincipal.dll
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\bin\Debug\net9.0-windows\FrmMenuPrincipal.exe
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\bin\Debug\net9.0-windows\FrmMenuPrincipal.deps.json
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\bin\Debug\net9.0-windows\FrmMenuPrincipal.runtimeconfig.json
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\bin\Debug\net9.0-windows\FrmMenuPrincipal.dll
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\bin\Debug\net9.0-windows\FrmMenuPrincipal.pdb
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\FrmMenuPrincipal.FrmMenuPrincipal.resources
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\FrmMenuPrincipal.csproj.GenerateResource.cache
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\FrmMenuPrincipal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\FrmMenuPrincipal.AssemblyInfoInputs.cache
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\FrmMenuPrincipal.AssemblyInfo.cs
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\FrmMenuPrincipal.csproj.CoreCompileInputs.cache
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\FrmMenuPrincipal.dll
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\refint\FrmMenuPrincipal.dll
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\FrmMenuPrincipal.pdb
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\FrmMenuPrincipal.genruntimeconfig.cache
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\ref\FrmMenuPrincipal.dll
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\FrmMenuP.1AC9B049.Up2Date

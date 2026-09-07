@@ -1,35 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\FrmMenuPrincipal\\FrmMenuPrincipal\\",
+  "WorkspaceRootPath": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\fpila\\onedrive - uni\\proyecto pae\\frmmenuprincipal\\frmmenuprincipal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\fpila\\onedrive - uni\\proyecto pae\\sistema_gestiondeinventario\\frmmenuprincipal\\frmmenuprincipal\\frmmenu .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:frmmenu .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69747D9D-7147-4C16-91AB-6E6327B9F9A0}|..\\..\\ProductosSGI\\ProductosSGI\\ProductosSGI.csproj|c:\\users\\fpila\\onedrive - uni\\proyecto pae\\productossgi\\productossgi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\fpila\\onedrive - uni\\proyecto pae\\sistema_gestiondeinventario\\frmmenuprincipal\\frmmenuprincipal\\frmmenu .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:frmmenu .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08C0435F-4F89-49B3-A149-0BB955522943}|..\\..\\Movimiento\\RA6 Lalbel\\RA6 Lalbel.csproj|c:\\users\\fpila\\onedrive - uni\\proyecto pae\\movimiento\\ra6 lalbel\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\fpila\\onedrive - uni\\proyecto pae\\sistema_gestiondeinventario\\frmmenuprincipal\\frmmenuprincipal\\frmmenu .designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:frmmenu .designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA91190F-BE36-4EB8-A857-31E91A708F41}|..\\..\\pupuReportes\\WindowsFormsApp4\\WindowsFormsApp4.csproj|c:\\users\\fpila\\onedrive - uni\\proyecto pae\\pupureportes\\windowsformsapp4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\fpila\\onedrive - uni\\proyecto pae\\sistema_gestiondeinventario\\frmmenuprincipal\\frmmenuprincipal\\ucresumendestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:ucresumendestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73039276-2C21-4A94-90D2-91BBB526B1C2}|..\\..\\Modulo3\\Modulo3\\Proveedores.csproj|c:\\users\\fpila\\onedrive - uni\\proyecto pae\\modulo3\\modulo3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\fpila\\onedrive - uni\\proyecto pae\\sistema_gestiondeinventario\\frmmenuprincipal\\frmmenuprincipal\\ucproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:ucproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBB817B6-A1FC-4399-A2C7-15F2298AF631}|..\\..\\WindowsFormsApp2\\WindowsFormsApp2\\WindowsFormsApp2\\WindowsFormsApp2.csproj|c:\\users\\fpila\\onedrive - uni\\proyecto pae\\windowsformsapp2\\windowsformsapp2\\windowsformsapp2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\fpila\\onedrive - uni\\proyecto pae\\sistema_gestiondeinventario\\frmmenuprincipal\\frmmenuprincipal\\ucresumendemovimientos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:ucresumendemovimientos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBB817B6-A1FC-4399-A2C7-15F2298AF631}|..\\..\\WindowsFormsApp2\\WindowsFormsApp2\\WindowsFormsApp2\\WindowsFormsApp2.csproj|c:\\users\\fpila\\onedrive - uni\\proyecto pae\\windowsformsapp2\\windowsformsapp2\\windowsformsapp2\\pesta\u00F1a8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\fpila\\onedrive - uni\\proyecto pae\\sistema_gestiondeinventario\\frmmenuprincipal\\frmmenuprincipal\\uccostospormov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:uccostospormov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3374A44-0CDE-5191-6F13-49276FD72E30}|..\\..\\Inicio_DE_Sesion\\Iniciodesesion.csproj|c:\\users\\fpila\\onedrive - uni\\proyecto pae\\inicio_de_sesion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\fpila\\onedrive - uni\\proyecto pae\\sistema_gestiondeinventario\\frmmenuprincipal\\frmmenuprincipal\\uccostospormov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:uccostospormov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\FrmMenuPrincipal\\FrmMenuPrincipal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\fpila\\onedrive - uni\\proyecto pae\\sistema_gestiondeinventario\\frmmenuprincipal\\frmmenuprincipal\\ucmovimientos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:ucmovimientos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\fpila\\onedrive - uni\\proyecto pae\\sistema_gestiondeinventario\\frmmenuprincipal\\frmmenuprincipal\\ucproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:ucproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\fpila\\onedrive - uni\\proyecto pae\\sistema_gestiondeinventario\\frmmenuprincipal\\frmmenuprincipal\\ucproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:ucproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\fpila\\onedrive - uni\\proyecto pae\\sistema_gestiondeinventario\\frmmenuprincipal\\frmmenuprincipal\\ucmovimientos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:ucmovimientos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\fpila\\onedrive - uni\\proyecto pae\\sistema_gestiondeinventario\\frmmenuprincipal\\frmmenuprincipal\\ucmovimientos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:ucmovimientos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\fpila\\onedrive - uni\\proyecto pae\\sistema_gestiondeinventario\\frmmenuprincipal\\frmmenuprincipal\\ucproveedor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:ucproveedor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -51,104 +78,177 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Inicio_DE_Sesion\\Form1.cs",
-              "RelativeDocumentMoniker": "..\\..\\Inicio_DE_Sesion\\Form1.cs",
-              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Inicio_DE_Sesion\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\Inicio_DE_Sesion\\Form1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T04:02:14.632Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Movimiento\\RA6 Lalbel\\Form1.cs",
-              "RelativeDocumentMoniker": "..\\..\\Movimiento\\RA6 Lalbel\\Form1.cs",
-              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Movimiento\\RA6 Lalbel\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\Movimiento\\RA6 Lalbel\\Form1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T04:04:54.014Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\pupuReportes\\WindowsFormsApp4\\Form1.cs",
-              "RelativeDocumentMoniker": "..\\..\\pupuReportes\\WindowsFormsApp4\\Form1.cs",
-              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\pupuReportes\\WindowsFormsApp4\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\pupuReportes\\WindowsFormsApp4\\Form1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T04:10:56.515Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\WindowsFormsApp2\\WindowsFormsApp2\\WindowsFormsApp2\\Form1.cs",
-              "RelativeDocumentMoniker": "..\\..\\WindowsFormsApp2\\WindowsFormsApp2\\WindowsFormsApp2\\Form1.cs",
-              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\WindowsFormsApp2\\WindowsFormsApp2\\WindowsFormsApp2\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\WindowsFormsApp2\\WindowsFormsApp2\\WindowsFormsApp2\\Form1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T04:14:29.898Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Modulo3\\Modulo3\\Form1.cs",
-              "RelativeDocumentMoniker": "..\\..\\Modulo3\\Modulo3\\Form1.cs",
-              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Modulo3\\Modulo3\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\Modulo3\\Modulo3\\Form1.cs [Dise\u00F1o]",
+              "Title": "ucProductos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucProductos.cs",
+              "RelativeDocumentMoniker": "ucProductos.cs",
+              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucProductos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ucProductos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T04:22:58.236Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\ProductosSGI\\ProductosSGI\\Form1.cs",
-              "RelativeDocumentMoniker": "..\\..\\ProductosSGI\\ProductosSGI\\Form1.cs",
-              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\ProductosSGI\\ProductosSGI\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\ProductosSGI\\ProductosSGI\\Form1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T04:22:34.205Z"
+              "WhenOpened": "2026-09-07T01:51:24.748Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\FrmMenuPrincipal\\FrmMenuPrincipal\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\FrmMenuPrincipal\\FrmMenuPrincipal\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Title": "FrmMenu .cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\FrmMenu .cs",
+              "RelativeDocumentMoniker": "FrmMenu .cs",
+              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\FrmMenu .cs [Dise\u00F1o]",
+              "RelativeToolTip": "FrmMenu .cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-19T02:16:22.795Z",
+              "WhenOpened": "2026-09-06T18:31:35.695Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ucResumendestock.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucResumendestock.cs",
+              "RelativeDocumentMoniker": "ucResumendestock.cs",
+              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucResumendestock.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ucResumendestock.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T03:21:33.42Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmMenu .cs",
+              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\FrmMenu .cs",
+              "RelativeDocumentMoniker": "FrmMenu .cs",
+              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\FrmMenu .cs",
+              "RelativeToolTip": "FrmMenu .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T18:31:54.633Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\FrmMenuPrincipal\\FrmMenuPrincipal\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\FrmMenuPrincipal\\FrmMenuPrincipal\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "DocumentIndex": 2,
+              "Title": "FrmMenu .Designer.cs",
+              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\FrmMenu .Designer.cs",
+              "RelativeDocumentMoniker": "FrmMenu .Designer.cs",
+              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\FrmMenu .Designer.cs",
+              "RelativeToolTip": "FrmMenu .Designer.cs",
+              "ViewState": "AgIAAAUBAAAAAAAAAADgvxcBAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-19T01:33:46.085Z"
+              "WhenOpened": "2026-09-06T23:12:15.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ucresumendemovimientos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucresumendemovimientos.cs",
+              "RelativeDocumentMoniker": "ucresumendemovimientos.cs",
+              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucresumendemovimientos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ucresumendemovimientos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T03:24:33.484Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Pesta\u00F1a8.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\WindowsFormsApp2\\WindowsFormsApp2\\WindowsFormsApp2\\Pesta\u00F1a8.cs",
-              "RelativeDocumentMoniker": "..\\..\\WindowsFormsApp2\\WindowsFormsApp2\\WindowsFormsApp2\\Pesta\u00F1a8.cs",
-              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\WindowsFormsApp2\\WindowsFormsApp2\\WindowsFormsApp2\\Pesta\u00F1a8.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\WindowsFormsApp2\\WindowsFormsApp2\\WindowsFormsApp2\\Pesta\u00F1a8.cs [Dise\u00F1o]",
+              "Title": "ucCostosporMov.cs",
+              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucCostosporMov.cs",
+              "RelativeDocumentMoniker": "ucCostosporMov.cs",
+              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucCostosporMov.cs",
+              "RelativeToolTip": "ucCostosporMov.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvxoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T04:17:31.197Z"
+              "WhenOpened": "2026-09-07T02:54:40.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ucCostosporMov.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucCostosporMov.cs",
+              "RelativeDocumentMoniker": "ucCostosporMov.cs",
+              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucCostosporMov.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ucCostosporMov.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T02:07:38.903Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ucMovimientos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucMovimientos.cs",
+              "RelativeDocumentMoniker": "ucMovimientos.cs",
+              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucMovimientos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ucMovimientos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T22:48:17.125Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ucProveedores.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucProveedores.cs",
+              "RelativeDocumentMoniker": "ucProveedores.cs",
+              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucProveedores.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ucProveedores.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T01:56:38.353Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ucProveedor.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucProveedor.cs",
+              "RelativeDocumentMoniker": "ucProveedor.cs",
+              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucProveedor.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ucProveedor.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T23:28:55.251Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ucMovimientos.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucMovimientos.Designer.cs",
+              "RelativeDocumentMoniker": "ucMovimientos.Designer.cs",
+              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucMovimientos.Designer.cs",
+              "RelativeToolTip": "ucMovimientos.Designer.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAADgv50AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T00:39:41.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ucMovimientos.cs",
+              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucMovimientos.cs",
+              "RelativeDocumentMoniker": "ucMovimientos.cs",
+              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucMovimientos.cs",
+              "RelativeToolTip": "ucMovimientos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T23:51:12.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ucProveedor.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucProveedor.Designer.cs",
+              "RelativeDocumentMoniker": "ucProveedor.Designer.cs",
+              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucProveedor.Designer.cs",
+              "RelativeToolTip": "ucProveedor.Designer.cs",
+              "ViewState": "AgIAANEAAAAAAAAAAAAEwNgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T23:41:45.979Z",
+              "EditorCaption": ""
             }
           ]
         }

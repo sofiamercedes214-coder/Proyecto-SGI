@@ -1,8 +1,53 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="Form1.cs">
+    <Compile Update="FrmCostopormovimiento.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmIniciodesesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmMenu .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmMovimientos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmMovimientosResumen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmReportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ucCostosporMov.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="ucMovimientos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="ucProductos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="ucProveedor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="ucProveedores.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="ucresumendemovimientos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="ucResumendestock.cs">
+      <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>
 </Project>

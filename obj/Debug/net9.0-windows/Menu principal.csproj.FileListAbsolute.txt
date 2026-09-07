@@ -15,3 +15,37 @@ C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\obj
 C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu principal.genruntimeconfig.cache
 C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\ref\Menu principal.dll
 C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu pri.6ABD981A.Up2Date
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\Sistema_Gestiondeinventario\FrmMenuPrincipal\FrmMenuPrincipal\bin\Debug\net9.0-windows\Menu principal.exe
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\Sistema_Gestiondeinventario\FrmMenuPrincipal\FrmMenuPrincipal\bin\Debug\net9.0-windows\Menu principal.deps.json
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\Sistema_Gestiondeinventario\FrmMenuPrincipal\FrmMenuPrincipal\bin\Debug\net9.0-windows\Menu principal.runtimeconfig.json
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\Sistema_Gestiondeinventario\FrmMenuPrincipal\FrmMenuPrincipal\bin\Debug\net9.0-windows\Menu principal.dll
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\Sistema_Gestiondeinventario\FrmMenuPrincipal\FrmMenuPrincipal\bin\Debug\net9.0-windows\Menu principal.pdb
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\Sistema_Gestiondeinventario\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\FrmMenuPrincipal.FrmMenuPrincipal.resources
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\Sistema_Gestiondeinventario\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu principal.csproj.GenerateResource.cache
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\Sistema_Gestiondeinventario\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu principal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\Sistema_Gestiondeinventario\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu principal.AssemblyInfoInputs.cache
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\Sistema_Gestiondeinventario\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu principal.AssemblyInfo.cs
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\Sistema_Gestiondeinventario\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu principal.csproj.CoreCompileInputs.cache
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\Sistema_Gestiondeinventario\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu principal.sourcelink.json
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\Sistema_Gestiondeinventario\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu principal.dll
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\Sistema_Gestiondeinventario\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\refint\Menu principal.dll
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\Sistema_Gestiondeinventario\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu principal.pdb
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\Sistema_Gestiondeinventario\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu principal.genruntimeconfig.cache
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\Sistema_Gestiondeinventario\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\ref\Menu principal.dll
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\Sistema_Gestiondeinventario\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu pri.6ABD981A.Up2Date
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\Sistema_Gestiondeinventario\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu_principal.FrmCostopormovimiento.resources
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\Sistema_Gestiondeinventario\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu_principal.FrmIniciodesesion.resources
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\Sistema_Gestiondeinventario\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu_principal.FrmMovimientos.resources
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\Sistema_Gestiondeinventario\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu_principal.FrmMovimientosResumen.resources
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\Sistema_Gestiondeinventario\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu_principal.FrmProductos.resources
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\Sistema_Gestiondeinventario\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu_principal.FrmProveedores.resources
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\Sistema_Gestiondeinventario\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu_principal.FrmReportes.resources
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\Sistema_Gestiondeinventario\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu_principal.FrmStock.resources
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\Sistema_Gestiondeinventario\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu_principal.Properties.Resources.resources
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\Sistema_Gestiondeinventario\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu_principal.ucProveedor.resources
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\Sistema_Gestiondeinventario\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu_principal.ucProductos.resources
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\Sistema_Gestiondeinventario\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu_principal.ucMovimientos.resources
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\Sistema_Gestiondeinventario\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu_principal.ucProveedores.resources
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\Sistema_Gestiondeinventario\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu_principal.ucCostosporMov.resources
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\Sistema_Gestiondeinventario\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu_principal.ucResumendemovimientos.resources
+C:\Users\fpila\OneDrive - UNI\PROYECTO PAE\Sistema_Gestiondeinventario\FrmMenuPrincipal\FrmMenuPrincipal\obj\Debug\net9.0-windows\Menu_principal.ucResumendestock.resources

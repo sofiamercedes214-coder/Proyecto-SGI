@@ -13,8 +13,9 @@ namespace Menu_principal
     public partial class ucMovimientos : UserControl
     {
         private int idMovimientoSeleccionado = 0;
+    
+        private MovimientoBll negocio = new MovimientoBll();
 
-        private MovimientoDAL movimientoDAL = new MovimientoDAL();
         public ucMovimientos()
         {
             InitializeComponent();
@@ -25,17 +26,18 @@ namespace Menu_principal
             CargarTabla();
             CargarComboBoxes();
         }
+
         private void CargarComboBoxes()
         {
             try
             {
-                // Cargar ComboBox de Tipo de Movimiento
-                cmbTipomov.DataSource = movimientoDAL.ConsultarTipos();
-                cmbTipomov.DisplayMember = "Descripcion"; // Muestra 'Entrada', 'Salida', etc.
+      
+                cmbTipomov.DataSource = negocio.ObtenerTipos();
+                cmbTipomov.DisplayMember = "Descripcion";
                 cmbTipomov.ValueMember = "IdTipoMovimiento";
 
                 // Cargar ComboBox de Proveedor
-                cmbIdProveedor.DataSource = movimientoDAL.ConsultarProveedores();
+                cmbIdProveedor.DataSource = negocio.ObtenerProveedores();
                 cmbIdProveedor.DisplayMember = "Empresa"; // Muestra 'Distribuidora San Martin', etc.
                 cmbIdProveedor.ValueMember = "IdProveedor";
             }
@@ -44,6 +46,7 @@ namespace Menu_principal
                 MessageBox.Show("Error al cargar combos: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
         private void CargarTabla()
         {
             try
@@ -51,14 +54,14 @@ namespace Menu_principal
                 dgvProveedor.DataSource = null;
                 dgvProveedor.Columns.Clear();
                 dgvProveedor.AutoGenerateColumns = true;
-                dgvProveedor.DataSource = movimientoDAL.ConsultarMovimientos();
+                dgvProveedor.DataSource = negocio.ObtenerMovimientos();
 
                 // --- Pulido Visual y UX del DataGridView ---
-                dgvProveedor.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill; // Ajusta las columnas al ancho total
-                dgvProveedor.ReadOnly = true;                                            // Bloquea la edición directa en celdas
-                dgvProveedor.AllowUserToAddRows = false;                                 // Elimina la fila vacía con el asterisco (*)
-                dgvProveedor.SelectionMode = DataGridViewSelectionMode.FullRowSelect;   // Selecciona la fila completa al hacer clic
-                dgvProveedor.MultiSelect = false;                                        // Evita seleccionar múltiples filas a la vez
+                dgvProveedor.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+                dgvProveedor.ReadOnly = true;
+                dgvProveedor.AllowUserToAddRows = false;
+                dgvProveedor.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+                dgvProveedor.MultiSelect = false;
             }
             catch (Exception ex)
             {
@@ -68,8 +71,6 @@ namespace Menu_principal
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-
-
             try
             {
                 // 1. Validar selección en ComboBoxes
@@ -79,17 +80,17 @@ namespace Menu_principal
                     return;
                 }
 
-                // 2. Crear objeto Movimiento con los datos de los controles
+                // 2. Crear objeto Movimiento con los nombres exactos de las propiedades
                 Movimiento nuevoMovimiento = new Movimiento
                 {
                     IdTipoMovimiento = Convert.ToInt32(cmbTipomov.SelectedValue),
-                    fecha = dtpMovimiento.Value,           // Ajusta al Name de tu DateTimePicker
-                    Motivo = txtDire.Text.Trim(),   // Ajusta al Name de tu TextBox de Motivo
+                    fecha = dtpMovimiento.Value,
+                    Motivo = txtDire.Text.Trim(),
                     Idproveedor = Convert.ToInt32(cmbIdProveedor.SelectedValue)
                 };
 
                 // 3. Insertar en SQL Server a través de la DAL
-                if (movimientoDAL.Insertar(nuevoMovimiento))
+                if (negocio.RegistrarMovimiento(nuevoMovimiento))
                 {
                     MessageBox.Show("¡Movimiento registrado con éxito!", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     CargarTabla();   // Refresca la tabla inmediatamente
@@ -99,28 +100,6 @@ namespace Menu_principal
             catch (Exception ex)
             {
                 MessageBox.Show("Error al guardar: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
-        private void LimpiarCampos()
-        {
-            idMovimientoSeleccionado = 0;
-            txtDire.Clear();
-            dtpMovimiento.Value = DateTime.Now;
-            if (cmbTipomov.Items.Count > 0) cmbTipomov.SelectedIndex = 0;
-            if (cmbIdProveedor.Items.Count > 0) cmbIdProveedor.SelectedIndex = 0;
-        }
-
-        private void dgvProveedor_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            if (e.RowIndex >= 0)
-            {
-                DataGridViewRow fila = dgvProveedor.Rows[e.RowIndex];
-                idMovimientoSeleccionado = Convert.ToInt32(fila.Cells["Id"].Value);
-                cmbTipomov.Text = fila.Cells["Tipo de movimiento"].Value.ToString();
-                dtpMovimiento.Value = Convert.ToDateTime(fila.Cells["Fecha"].Value);
-                cmbIdProveedor.Text = fila.Cells["Id Proveedor"].Value.ToString();
-                txtDire.Text = fila.Cells["Motivo"].Value.ToString();
             }
         }
 
@@ -134,12 +113,16 @@ namespace Menu_principal
 
             try
             {
-                int idTipo = Convert.ToInt32(cmbTipomov.SelectedValue);
-                int idProv = Convert.ToInt32(cmbIdProveedor.SelectedValue);
-                DateTime fecha = dtpMovimiento.Value;
-                string motivo = txtDire.Text.Trim();
+                Movimiento movEditar = new Movimiento
+                {
+                    IdMovimiento = idMovimientoSeleccionado,
+                    IdTipoMovimiento = Convert.ToInt32(cmbTipomov.SelectedValue),
+                    fecha = dtpMovimiento.Value,
+                    Motivo = txtDire.Text.Trim(),
+                    Idproveedor = Convert.ToInt32(cmbIdProveedor.SelectedValue)
+                };
 
-                if (movimientoDAL.EditarMovimiento(idMovimientoSeleccionado, idTipo, fecha, motivo, idProv))
+                if (negocio.ModificarMovimiento(movEditar))
                 {
                     MessageBox.Show("Movimiento actualizado correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     CargarTabla();
@@ -165,7 +148,7 @@ namespace Menu_principal
             {
                 try
                 {
-                    if (movimientoDAL.EliminarMovimiento(idMovimientoSeleccionado))
+                    if (negocio.BorrarMovimiento(idMovimientoSeleccionado)) 
                     {
                         MessageBox.Show("Movimiento eliminado correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         CargarTabla();
@@ -178,7 +161,27 @@ namespace Menu_principal
                 }
             }
         }
-        
-    }
 
+        private void dgvProveedor_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                DataGridViewRow fila = dgvProveedor.Rows[e.RowIndex];
+                idMovimientoSeleccionado = Convert.ToInt32(fila.Cells["IdMovimiento"].Value);
+                cmbTipomov.SelectedValue = Convert.ToInt32(fila.Cells["IdTipoMovimiento"].Value);
+                cmbIdProveedor.SelectedValue = Convert.ToInt32(fila.Cells["IdProveedor"].Value);
+                dtpMovimiento.Value = Convert.ToDateTime(fila.Cells["Fecha"].Value);
+                txtDire.Text = fila.Cells["Motivo"].Value?.ToString() ?? "";
+            }
+        }
+
+        private void LimpiarCampos()
+        {
+            idMovimientoSeleccionado = 0;
+            txtDire.Clear();
+            dtpMovimiento.Value = DateTime.Now;
+            if (cmbTipomov.Items.Count > 0) cmbTipomov.SelectedIndex = 0;
+            if (cmbIdProveedor.Items.Count > 0) cmbIdProveedor.SelectedIndex = 0;
+        }
+    }
 }

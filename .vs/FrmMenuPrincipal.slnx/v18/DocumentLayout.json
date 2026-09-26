@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\DYNABOOK\\Documents\\GitHub\\Proyecto-SGI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\dynabook\\documents\\github\\proyecto-sgi\\movimientodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:movimientodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\dynabook\\documents\\github\\proyecto-sgi\\ucmovimientos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:ucmovimientos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|C:\\Users\\DYNABOOK\\Documents\\GitHub\\Proyecto-SGI\\ucmovimientos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:ucmovimientos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\dynabook\\documents\\github\\proyecto-sgi\\movimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,16 +15,28 @@
       "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\dynabook\\documents\\github\\proyecto-sgi\\movimientodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:movimientodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\dynabook\\documents\\github\\proyecto-sgi\\movimientobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:movimientobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\dynabook\\documents\\github\\proyecto-sgi\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\dynabook\\documents\\github\\proyecto-sgi\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\dynabook\\documents\\github\\proyecto-sgi\\tipomovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:tipomovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|C:\\Users\\DYNABOOK\\Documents\\GitHub\\Proyecto-SGI\\ucmovimientos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:ucmovimientos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\dynabook\\documents\\github\\proyecto-sgi\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,33 +50,46 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "MovimientoBll.cs",
+              "DocumentMoniker": "C:\\Users\\DYNABOOK\\Documents\\GitHub\\Proyecto-SGI\\MovimientoBll.cs",
+              "RelativeDocumentMoniker": "MovimientoBll.cs",
+              "ToolTip": "C:\\Users\\DYNABOOK\\Documents\\GitHub\\Proyecto-SGI\\MovimientoBll.cs",
+              "RelativeToolTip": "MovimientoBll.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T19:59:02.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "ucMovimientos.cs",
               "DocumentMoniker": "C:\\Users\\DYNABOOK\\Documents\\GitHub\\Proyecto-SGI\\ucMovimientos.cs",
               "RelativeDocumentMoniker": "ucMovimientos.cs",
               "ToolTip": "C:\\Users\\DYNABOOK\\Documents\\GitHub\\Proyecto-SGI\\ucMovimientos.cs",
               "RelativeToolTip": "ucMovimientos.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAxwGoAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-14T02:50:30.267Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MovimientoDal.cs",
               "DocumentMoniker": "C:\\Users\\DYNABOOK\\Documents\\GitHub\\Proyecto-SGI\\MovimientoDal.cs",
               "RelativeDocumentMoniker": "MovimientoDal.cs",
               "ToolTip": "C:\\Users\\DYNABOOK\\Documents\\GitHub\\Proyecto-SGI\\MovimientoDal.cs",
               "RelativeToolTip": "MovimientoDal.cs",
-              "ViewState": "AgIAAIIAAAAAAAAAAAAcwJwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-14T02:45:10.946Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Conexion.cs",
               "DocumentMoniker": "C:\\Users\\DYNABOOK\\Documents\\GitHub\\Proyecto-SGI\\Conexion.cs",
               "RelativeDocumentMoniker": "Conexion.cs",
@@ -98,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "ucMovimientos.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\DYNABOOK\\Documents\\GitHub\\Proyecto-SGI\\ucMovimientos.cs",
               "RelativeDocumentMoniker": "ucMovimientos.cs",
@@ -110,20 +127,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Movimiento.cs",
               "DocumentMoniker": "C:\\Users\\DYNABOOK\\Documents\\GitHub\\Proyecto-SGI\\Movimiento.cs",
               "RelativeDocumentMoniker": "Movimiento.cs",
               "ToolTip": "C:\\Users\\DYNABOOK\\Documents\\GitHub\\Proyecto-SGI\\Movimiento.cs",
               "RelativeToolTip": "Movimiento.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-13T16:11:44.631Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "TipoMovimiento.cs",
               "DocumentMoniker": "C:\\Users\\DYNABOOK\\Documents\\GitHub\\Proyecto-SGI\\TipoMovimiento.cs",
               "RelativeDocumentMoniker": "TipoMovimiento.cs",
@@ -136,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Proveedor.cs",
               "DocumentMoniker": "C:\\Users\\DYNABOOK\\Documents\\GitHub\\Proyecto-SGI\\Proveedor.cs",
               "RelativeDocumentMoniker": "Proveedor.cs",

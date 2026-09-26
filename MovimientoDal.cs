@@ -1,157 +1,178 @@
-﻿using Menu_principal;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 
-public class MovimientoDAL
+namespace Menu_principal
 {
-  
-    public List<Movimiento> ConsultarTodos()
+    public class MovimientoDal
     {
-        List<Movimiento> lista = new List<Movimiento>();
-
-        using (SqlConnection con = Conexion.ObtenerConexion())
+        
+        public List<Movimiento> Listar()
         {
-            string query = "SELECT IdMovimiento, IdTipoMovimiento, Fecha, Motivo, IdProveedor FROM Movimiento";
-            SqlCommand cmd = new SqlCommand(query, con);
-
-            try
+            List<Movimiento> lista = new List<Movimiento>();
+            using (SqlConnection con = Conexion.ObtenerConexion())
             {
-                con.Open();
-                using (SqlDataReader reader = cmd.ExecuteReader())
+                SqlCommand cmd = new SqlCommand("sp_ListarMovimientos", con);
+                cmd.CommandType = CommandType.StoredProcedure;
+
+                try
                 {
-                    while (reader.Read())
+                    con.Open();
+                    using (SqlDataReader reader = cmd.ExecuteReader())
                     {
-                        lista.Add(new Movimiento
+                        while (reader.Read())
                         {
-                            IdMovimiento = Convert.ToInt32(reader["IdMovimiento"]),
-                            IdTipoMovimiento = Convert.ToInt32(reader["IdTipoMovimiento"]),
-                            fecha = Convert.ToDateTime(reader["Fecha"]),
-                            Motivo = reader["Motivo"].ToString(),
-                            Idproveedor = Convert.ToInt32(reader["IdProveedor"])
-                        });
+                            lista.Add(new Movimiento
+                            {
+                                IdMovimiento = Convert.ToInt32(reader["IdMovimiento"]),
+                                IdTipoMovimiento = Convert.ToInt32(reader["IdTipoMovimiento"]),
+                                Motivo = reader["TipoMovimiento"].ToString() ?? "",
+                                fecha = Convert.ToDateTime(reader["Fecha"]),
+                                Idproveedor = Convert.ToInt32(reader["IdProveedor"]),
+                               
+                            });
+                        }
                     }
                 }
+                catch (Exception ex)
+                {
+                    throw new Exception("Error al listar movimientos: " + ex.Message);
+                }
             }
-            catch (Exception ex)
+            return lista;
+        }
+
+        // 2. Insertar movimiento usando el Procedimiento Almacenado
+        public bool Insertar(Movimiento mov)
+        {
+            using (SqlConnection con = Conexion.ObtenerConexion())
             {
-                throw new Exception("Error al consultar movimientos: " + ex.Message);
+                SqlCommand cmd = new SqlCommand("sp_InsertarMovimiento", con);
+                cmd.CommandType = CommandType.StoredProcedure;
+
+                cmd.Parameters.AddWithValue("@IdTipoMovimiento", mov.IdTipoMovimiento);
+                cmd.Parameters.AddWithValue("@Fecha", mov.fecha);
+                cmd.Parameters.AddWithValue("@Motivo", mov.Motivo);
+                cmd.Parameters.AddWithValue("@IdProveedor", mov.Idproveedor);
+
+                try
+                {
+                    con.Open();
+                    return cmd.ExecuteNonQuery() > 0;
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception("Error al insertar movimiento: " + ex.Message);
+                }
             }
         }
-        return lista;
-    }
 
-    // Método para insertar un movimiento
-    public bool Insertar(Movimiento mov)
-    {
-        using (SqlConnection con = Conexion.ObtenerConexion())
+        // 3. Actualizar movimiento usando el Procedimiento Almacenado
+        public bool Actualizar(Movimiento mov)
         {
-            string query = "INSERT INTO Movimiento (IdTipoMovimiento, Fecha, Motivo, IdProveedor) VALUES (@idTipo, @fecha, @motivo, @idProv)";
-            SqlCommand cmd = new SqlCommand(query, con);
-            cmd.Parameters.AddWithValue("@idTipo", mov.IdTipoMovimiento);
-            cmd.Parameters.AddWithValue("@fecha", mov.fecha);
-            cmd.Parameters.AddWithValue("@motivo", mov.Motivo);
-            cmd.Parameters.AddWithValue("@idProv", mov.Idproveedor);
-
-            try
+            using (SqlConnection con = Conexion.ObtenerConexion())
             {
-                con.Open();
-                return cmd.ExecuteNonQuery() > 0;
+                SqlCommand cmd = new SqlCommand("sp_ActualizarMovimiento", con);
+                cmd.CommandType = CommandType.StoredProcedure;
+
+                cmd.Parameters.AddWithValue("@IdMovimiento", mov.IdMovimiento);
+                cmd.Parameters.AddWithValue("@IdTipoMovimiento", mov.IdTipoMovimiento);
+                cmd.Parameters.AddWithValue("@Fecha", mov.fecha);
+                cmd.Parameters.AddWithValue("@Motivo", mov.Motivo);
+                cmd.Parameters.AddWithValue("@IdProveedor", mov.Idproveedor);
+
+                try
+                {
+                    con.Open();
+                    return cmd.ExecuteNonQuery() > 0;
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception("Error al actualizar movimiento: " + ex.Message);
+                }
             }
-            catch (Exception ex)
+        }
+
+        // 4. Eliminar movimiento usando el Procedimiento Almacenado
+        public bool Eliminar(int idMovimiento)
+        {
+            using (SqlConnection con = Conexion.ObtenerConexion())
             {
-                throw new Exception("Error al guardar movimiento: " + ex.Message);
+                SqlCommand cmd = new SqlCommand("sp_EliminarMovimiento", con);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@IdMovimiento", idMovimiento);
+
+                try
+                {
+                    con.Open();
+                    return cmd.ExecuteNonQuery() > 0;
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception("Error al eliminar movimiento: " + ex.Message);
+                }
             }
         }
-    }
-    // Método para obtener los tipos de movimiento
-    public DataTable ConsultarTipos()
-    {
-        DataTable dt = new DataTable();
-        using (SqlConnection con = Conexion.ObtenerConexion())
+
+        // 5. Buscar o filtrar movimientos usando el Procedimiento Almacenado
+        public List<Movimiento> Buscar(string criterio)
         {
-            // Cambiado 'Nombre' por 'Descripcion'
-            string query = "SELECT IdTipoMovimiento, Descripcion FROM TipoMovimiento";
-            SqlCommand cmd = new SqlCommand(query, con);
-            SqlDataAdapter da = new SqlDataAdapter(cmd);
-            da.Fill(dt);
+            List<Movimiento> lista = new List<Movimiento>();
+            using (SqlConnection con = Conexion.ObtenerConexion())
+            {
+                SqlCommand cmd = new SqlCommand("sp_BuscarMovimiento", con);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@Criterio", criterio);
+
+                try
+                {
+                    con.Open();
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            lista.Add(new Movimiento
+                            {
+                                IdMovimiento = Convert.ToInt32(reader["IdMovimiento"]),
+                                IdTipoMovimiento = Convert.ToInt32(reader["IdTipoMovimiento"]),
+                                Motivo = reader["TipoMovimiento"].ToString() ?? "",
+                                fecha = Convert.ToDateTime(reader["Fecha"]),
+                                Idproveedor = Convert.ToInt32(reader["IdProveedor"]),
+                                
+                            });
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception("Error al buscar movimiento: " + ex.Message);
+                }
+            }
+            return lista;
         }
-        return dt;
-    }
-
-    public DataTable ConsultarMovimientos()
-    {
-        DataTable dt = new DataTable();
-        using (SqlConnection con = Conexion.ObtenerConexion())
+        // Método para llenar el ComboBox de Tipos de Movimiento
+        public DataTable ConsultarTipos()
         {
-            // Usamos LEFT JOIN para evitar errores si algún proveedor o tipo viene nulo
-            string query = @"SELECT 
-                            m.IdMovimiento AS Id,
-                            ISNULL(t.Descripcion, 'Sin definir') AS [Tipo de movimiento],
-                            m.Fecha,
-                            ISNULL(p.Empresa, 'Sin proveedor') AS [Id Proveedor],
-                            ISNULL(m.Motivo, '') AS Motivo
-                         FROM Movimiento m
-                         LEFT JOIN TipoMovimiento t ON m.IdTipoMovimiento = t.IdTipoMovimiento
-                         LEFT JOIN Proveedor p ON m.IdProveedor = p.IdProveedor";
-
-            SqlCommand cmd = new SqlCommand(query, con);
-            SqlDataAdapter da = new SqlDataAdapter(cmd);
-            da.Fill(dt);
+            using (SqlConnection con = Conexion.ObtenerConexion())
+            {
+                SqlDataAdapter da = new SqlDataAdapter("SELECT IdTipoMovimiento, Descripcion FROM TipoMovimiento", con);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+                return dt;
+            }
         }
-        return dt;
-    }
-    public DataTable ConsultarProveedores()
-    {
-        DataTable dt = new DataTable();
-        using (SqlConnection con = Conexion.ObtenerConexion())
+
+        // Método para llenar el ComboBox de Proveedores
+        public DataTable ConsultarProveedores()
         {
-            string query = "SELECT IdProveedor, Empresa FROM Proveedor";
-            SqlCommand cmd = new SqlCommand(query, con);
-            SqlDataAdapter da = new SqlDataAdapter(cmd);
-            da.Fill(dt);
-        }
-        return dt;
-    }
-    public bool EditarMovimiento(int idMovimiento, int idTipoMovimiento, DateTime fecha, string motivo, int idProveedor)
-    {
-        using (SqlConnection con = Conexion.ObtenerConexion())
-        {
-            string query = @"UPDATE Movimiento 
-                         SET IdTipoMovimiento = @idTipo, 
-                             Fecha = @fecha, 
-                             Motivo = @motivo, 
-                             IdProveedor = @idProveedor 
-                         WHERE IdMovimiento = @id";
-
-            SqlCommand cmd = new SqlCommand(query, con);
-            cmd.Parameters.AddWithValue("@idTipo", idTipoMovimiento);
-            cmd.Parameters.AddWithValue("@fecha", fecha);
-            cmd.Parameters.AddWithValue("@motivo", motivo);
-            cmd.Parameters.AddWithValue("@idProveedor", idProveedor);
-            cmd.Parameters.AddWithValue("@id", idMovimiento);
-
-            return cmd.ExecuteNonQuery() > 0;
-        }
-    }
-
-    public bool EliminarMovimiento(int idMovimiento)
-    {
-        using (SqlConnection con = Conexion.ObtenerConexion())
-        {
-          
-            string queryDetalle = "DELETE FROM Detalle_Movimiento WHERE IdMovimiento = @id";
-            SqlCommand cmdDetalle = new SqlCommand(queryDetalle, con);
-            cmdDetalle.Parameters.AddWithValue("@id", idMovimiento);
-            cmdDetalle.ExecuteNonQuery();
-
-            // Luego eliminamos el movimiento
-            string query = "DELETE FROM Movimiento WHERE IdMovimiento = @id";
-            SqlCommand cmd = new SqlCommand(query, con);
-            cmd.Parameters.AddWithValue("@id", idMovimiento);
-
-            return cmd.ExecuteNonQuery() > 0;
+            using (SqlConnection con = Conexion.ObtenerConexion())
+            {
+                SqlDataAdapter da = new SqlDataAdapter("SELECT IdProveedor, Empresa FROM Proveedor", con);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+                return dt;
+            }
         }
     }
 }

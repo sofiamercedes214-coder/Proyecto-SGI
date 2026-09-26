@@ -1,62 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\",
+  "WorkspaceRootPath": "C:\\Users\\DYNABOOK\\Documents\\GitHub\\Proyecto-SGI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\fpila\\onedrive - uni\\proyecto pae\\sistema_gestiondeinventario\\frmmenuprincipal\\frmmenuprincipal\\frmmenu .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:frmmenu .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\dynabook\\documents\\github\\proyecto-sgi\\movimientodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:movimientodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\fpila\\onedrive - uni\\proyecto pae\\sistema_gestiondeinventario\\frmmenuprincipal\\frmmenuprincipal\\frmmenu .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:frmmenu .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\fpila\\onedrive - uni\\proyecto pae\\sistema_gestiondeinventario\\frmmenuprincipal\\frmmenuprincipal\\frmmenu .designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:frmmenu .designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\fpila\\onedrive - uni\\proyecto pae\\sistema_gestiondeinventario\\frmmenuprincipal\\frmmenuprincipal\\ucresumendestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:ucresumendestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\fpila\\onedrive - uni\\proyecto pae\\sistema_gestiondeinventario\\frmmenuprincipal\\frmmenuprincipal\\ucproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:ucproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\fpila\\onedrive - uni\\proyecto pae\\sistema_gestiondeinventario\\frmmenuprincipal\\frmmenuprincipal\\ucresumendemovimientos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:ucresumendemovimientos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\fpila\\onedrive - uni\\proyecto pae\\sistema_gestiondeinventario\\frmmenuprincipal\\frmmenuprincipal\\uccostospormov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:uccostospormov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\fpila\\onedrive - uni\\proyecto pae\\sistema_gestiondeinventario\\frmmenuprincipal\\frmmenuprincipal\\uccostospormov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:uccostospormov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\fpila\\onedrive - uni\\proyecto pae\\sistema_gestiondeinventario\\frmmenuprincipal\\frmmenuprincipal\\ucmovimientos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:ucmovimientos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\fpila\\onedrive - uni\\proyecto pae\\sistema_gestiondeinventario\\frmmenuprincipal\\frmmenuprincipal\\ucproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:ucproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\fpila\\onedrive - uni\\proyecto pae\\sistema_gestiondeinventario\\frmmenuprincipal\\frmmenuprincipal\\ucproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:ucproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\fpila\\onedrive - uni\\proyecto pae\\sistema_gestiondeinventario\\frmmenuprincipal\\frmmenuprincipal\\ucmovimientos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:ucmovimientos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\fpila\\onedrive - uni\\proyecto pae\\sistema_gestiondeinventario\\frmmenuprincipal\\frmmenuprincipal\\ucmovimientos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\dynabook\\documents\\github\\proyecto-sgi\\ucmovimientos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:ucmovimientos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\fpila\\onedrive - uni\\proyecto pae\\sistema_gestiondeinventario\\frmmenuprincipal\\frmmenuprincipal\\ucproveedor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:ucproveedor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|C:\\Users\\DYNABOOK\\Documents\\GitHub\\Proyecto-SGI\\ucmovimientos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:ucmovimientos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\dynabook\\documents\\github\\proyecto-sgi\\movimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:movimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\dynabook\\documents\\github\\proyecto-sgi\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\dynabook\\documents\\github\\proyecto-sgi\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\dynabook\\documents\\github\\proyecto-sgi\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|c:\\users\\dynabook\\documents\\github\\proyecto-sgi\\tipomovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B820F46A-BE2B-CFED-23BC-E4080444C23B}|Menu principal.csproj|solutionrelative:tipomovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,122 +42,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ucProductos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucProductos.cs",
-              "RelativeDocumentMoniker": "ucProductos.cs",
-              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucProductos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ucProductos.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T01:51:24.748Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FrmMenu .cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\FrmMenu .cs",
-              "RelativeDocumentMoniker": "FrmMenu .cs",
-              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\FrmMenu .cs [Dise\u00F1o]",
-              "RelativeToolTip": "FrmMenu .cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T18:31:35.695Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ucResumendestock.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucResumendestock.cs",
-              "RelativeDocumentMoniker": "ucResumendestock.cs",
-              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucResumendestock.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ucResumendestock.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T03:21:33.42Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FrmMenu .cs",
-              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\FrmMenu .cs",
-              "RelativeDocumentMoniker": "FrmMenu .cs",
-              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\FrmMenu .cs",
-              "RelativeToolTip": "FrmMenu .cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Title": "ucMovimientos.cs",
+              "DocumentMoniker": "C:\\Users\\DYNABOOK\\Documents\\GitHub\\Proyecto-SGI\\ucMovimientos.cs",
+              "RelativeDocumentMoniker": "ucMovimientos.cs",
+              "ToolTip": "C:\\Users\\DYNABOOK\\Documents\\GitHub\\Proyecto-SGI\\ucMovimientos.cs",
+              "RelativeToolTip": "ucMovimientos.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAxwGoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T18:31:54.633Z",
+              "WhenOpened": "2026-09-14T02:50:30.267Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmMenu .Designer.cs",
-              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\FrmMenu .Designer.cs",
-              "RelativeDocumentMoniker": "FrmMenu .Designer.cs",
-              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\FrmMenu .Designer.cs",
-              "RelativeToolTip": "FrmMenu .Designer.cs",
-              "ViewState": "AgIAAAUBAAAAAAAAAADgvxcBAABbAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "MovimientoDal.cs",
+              "DocumentMoniker": "C:\\Users\\DYNABOOK\\Documents\\GitHub\\Proyecto-SGI\\MovimientoDal.cs",
+              "RelativeDocumentMoniker": "MovimientoDal.cs",
+              "ToolTip": "C:\\Users\\DYNABOOK\\Documents\\GitHub\\Proyecto-SGI\\MovimientoDal.cs*",
+              "RelativeToolTip": "MovimientoDal.cs*",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAswJwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T23:12:15.013Z",
+              "WhenOpened": "2026-09-14T02:45:10.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\DYNABOOK\\Documents\\GitHub\\Proyecto-SGI\\Conexion.cs",
+              "RelativeDocumentMoniker": "Conexion.cs",
+              "ToolTip": "C:\\Users\\DYNABOOK\\Documents\\GitHub\\Proyecto-SGI\\Conexion.cs",
+              "RelativeToolTip": "Conexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T02:41:36.572Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ucresumendemovimientos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucresumendemovimientos.cs",
-              "RelativeDocumentMoniker": "ucresumendemovimientos.cs",
-              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucresumendemovimientos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ucresumendemovimientos.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T03:24:33.484Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ucCostosporMov.cs",
-              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucCostosporMov.cs",
-              "RelativeDocumentMoniker": "ucCostosporMov.cs",
-              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucCostosporMov.cs",
-              "RelativeToolTip": "ucCostosporMov.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAADwvxoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T02:54:40.757Z",
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\DYNABOOK\\Documents\\GitHub\\Proyecto-SGI\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\Users\\DYNABOOK\\Documents\\GitHub\\Proyecto-SGI\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-09-13T16:22:40.91Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ucCostosporMov.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucCostosporMov.cs",
-              "RelativeDocumentMoniker": "ucCostosporMov.cs",
-              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucCostosporMov.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ucCostosporMov.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T02:07:38.903Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "ucMovimientos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucMovimientos.cs",
+              "DocumentMoniker": "C:\\Users\\DYNABOOK\\Documents\\GitHub\\Proyecto-SGI\\ucMovimientos.cs",
               "RelativeDocumentMoniker": "ucMovimientos.cs",
-              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucMovimientos.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\DYNABOOK\\Documents\\GitHub\\Proyecto-SGI\\ucMovimientos.cs [Dise\u00F1o]",
               "RelativeToolTip": "ucMovimientos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-06T22:48:17.125Z",
@@ -189,65 +110,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ucProveedores.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucProveedores.cs",
-              "RelativeDocumentMoniker": "ucProveedores.cs",
-              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucProveedores.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ucProveedores.cs [Dise\u00F1o]",
+              "DocumentIndex": 3,
+              "Title": "Movimiento.cs",
+              "DocumentMoniker": "C:\\Users\\DYNABOOK\\Documents\\GitHub\\Proyecto-SGI\\Movimiento.cs",
+              "RelativeDocumentMoniker": "Movimiento.cs",
+              "ToolTip": "C:\\Users\\DYNABOOK\\Documents\\GitHub\\Proyecto-SGI\\Movimiento.cs",
+              "RelativeToolTip": "Movimiento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T01:56:38.353Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ucProveedor.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucProveedor.cs",
-              "RelativeDocumentMoniker": "ucProveedor.cs",
-              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucProveedor.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ucProveedor.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T23:28:55.251Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ucMovimientos.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucMovimientos.Designer.cs",
-              "RelativeDocumentMoniker": "ucMovimientos.Designer.cs",
-              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucMovimientos.Designer.cs",
-              "RelativeToolTip": "ucMovimientos.Designer.cs",
-              "ViewState": "AgIAAIoAAAAAAAAAAADgv50AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T00:39:41.214Z",
+              "WhenOpened": "2026-09-13T16:11:44.631Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ucMovimientos.cs",
-              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucMovimientos.cs",
-              "RelativeDocumentMoniker": "ucMovimientos.cs",
-              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucMovimientos.cs",
-              "RelativeToolTip": "ucMovimientos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "TipoMovimiento.cs",
+              "DocumentMoniker": "C:\\Users\\DYNABOOK\\Documents\\GitHub\\Proyecto-SGI\\TipoMovimiento.cs",
+              "RelativeDocumentMoniker": "TipoMovimiento.cs",
+              "ToolTip": "C:\\Users\\DYNABOOK\\Documents\\GitHub\\Proyecto-SGI\\TipoMovimiento.cs",
+              "RelativeToolTip": "TipoMovimiento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T23:51:12.204Z",
+              "WhenOpened": "2026-09-13T16:15:34.307Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ucProveedor.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucProveedor.Designer.cs",
-              "RelativeDocumentMoniker": "ucProveedor.Designer.cs",
-              "ToolTip": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\ucProveedor.Designer.cs",
-              "RelativeToolTip": "ucProveedor.Designer.cs",
-              "ViewState": "AgIAANEAAAAAAAAAAAAEwNgAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Proveedor.cs",
+              "DocumentMoniker": "C:\\Users\\DYNABOOK\\Documents\\GitHub\\Proyecto-SGI\\Proveedor.cs",
+              "RelativeDocumentMoniker": "Proveedor.cs",
+              "ToolTip": "C:\\Users\\DYNABOOK\\Documents\\GitHub\\Proyecto-SGI\\Proveedor.cs",
+              "RelativeToolTip": "Proveedor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T23:41:45.979Z",
+              "WhenOpened": "2026-09-13T16:15:53.247Z",
               "EditorCaption": ""
             }
           ]

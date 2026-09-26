@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "us/2yJkBH5o=",
+  "dgSpecHash": "2ofuGoyLrpU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\fpila\\OneDrive - UNI\\PROYECTO PAE\\Sistema_Gestiondeinventario\\FrmMenuPrincipal\\FrmMenuPrincipal\\Menu principal.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\DYNABOOK\\Documents\\GitHub\\Proyecto-SGI\\Menu principal.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DYNABOOK\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\DYNABOOK\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\DYNABOOK\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\DYNABOOK\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\DYNABOOK\\.nuget\\packages\\system.configuration.configurationmanager\\10.0.12\\system.configuration.configurationmanager.10.0.12.nupkg.sha512",
+    "C:\\Users\\DYNABOOK\\.nuget\\packages\\system.data.sqlclient\\4.9.1\\system.data.sqlclient.4.9.1.nupkg.sha512",
+    "C:\\Users\\DYNABOOK\\.nuget\\packages\\system.diagnostics.eventlog\\10.0.12\\system.diagnostics.eventlog.10.0.12.nupkg.sha512",
+    "C:\\Users\\DYNABOOK\\.nuget\\packages\\system.security.cryptography.protecteddata\\10.0.12\\system.security.cryptography.protecteddata.10.0.12.nupkg.sha512",
+    "C:\\Users\\DYNABOOK\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.19\\microsoft.windowsdesktop.app.ref.9.0.19.nupkg.sha512",
+    "C:\\Users\\DYNABOOK\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.19\\microsoft.netcore.app.ref.9.0.19.nupkg.sha512",
+    "C:\\Users\\DYNABOOK\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.19\\microsoft.aspnetcore.app.ref.9.0.19.nupkg.sha512",
+    "C:\\Users\\DYNABOOK\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.19\\microsoft.netcore.app.host.win-x64.9.0.19.nupkg.sha512"
+  ],
   "logs": []
 }

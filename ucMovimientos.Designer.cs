@@ -33,6 +33,11 @@
             btnEditar = new Button();
             btnGuardar = new Button();
             dgvProveedor = new DataGridView();
+            Id = new DataGridViewTextBoxColumn();
+            Tipodemov = new DataGridViewTextBoxColumn();
+            Fecha = new DataGridViewTextBoxColumn();
+            Proveedor = new DataGridViewTextBoxColumn();
+            Motivo = new DataGridViewTextBoxColumn();
             cmbTipomov = new ComboBox();
             txtDire = new TextBox();
             lblTipodemov = new Label();
@@ -40,11 +45,6 @@
             lblFecha = new Label();
             dtpMovimiento = new DateTimePicker();
             cmbIdProveedor = new ComboBox();
-            Id = new DataGridViewTextBoxColumn();
-            Tipodemov = new DataGridViewTextBoxColumn();
-            Fecha = new DataGridViewTextBoxColumn();
-            Proveedor = new DataGridViewTextBoxColumn();
-            Motivo = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)dgvProveedor).BeginInit();
             SuspendLayout();
             // 
@@ -66,6 +66,7 @@
             btnEliminar.TabIndex = 48;
             btnEliminar.Text = "Eliminar";
             btnEliminar.UseVisualStyleBackColor = false;
+            btnEliminar.Click += btnEliminar_Click;
             // 
             // btnEditar
             // 
@@ -76,6 +77,7 @@
             btnEditar.TabIndex = 47;
             btnEditar.Text = "Editar";
             btnEditar.UseVisualStyleBackColor = false;
+            btnEditar.Click += btnEditar_Click;
             // 
             // btnGuardar
             // 
@@ -86,6 +88,7 @@
             btnGuardar.TabIndex = 46;
             btnGuardar.Text = "Guardar";
             btnGuardar.UseVisualStyleBackColor = false;
+            btnGuardar.Click += btnGuardar_Click;
             // 
             // dgvProveedor
             // 
@@ -97,6 +100,38 @@
             dgvProveedor.RowHeadersWidth = 51;
             dgvProveedor.Size = new Size(1233, 341);
             dgvProveedor.TabIndex = 45;
+            dgvProveedor.CellContentClick += dgvProveedor_CellContentClick;
+            // 
+            // Id
+            // 
+            Id.HeaderText = "Id";
+            Id.MinimumWidth = 6;
+            Id.Name = "Id";
+            // 
+            // Tipodemov
+            // 
+            Tipodemov.HeaderText = "Tipo de movimiento";
+            Tipodemov.MinimumWidth = 6;
+            Tipodemov.Name = "Tipodemov";
+            // 
+            // Fecha
+            // 
+            Fecha.HeaderText = "Fecha";
+            Fecha.MinimumWidth = 6;
+            Fecha.Name = "Fecha";
+            // 
+            // Proveedor
+            // 
+            Proveedor.HeaderText = "Id Proveedor";
+            Proveedor.MinimumWidth = 6;
+            Proveedor.Name = "Proveedor";
+            // 
+            // Motivo
+            // 
+            Motivo.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Motivo.HeaderText = "Motivo ";
+            Motivo.MinimumWidth = 6;
+            Motivo.Name = "Motivo";
             // 
             // cmbTipomov
             // 
@@ -139,7 +174,6 @@
             lblFecha.Size = new Size(63, 22);
             lblFecha.TabIndex = 38;
             lblFecha.Text = "Fecha:";
-         //   lblFecha.Click += this.lblFecha_Click;
             // 
             // dtpMovimiento
             // 
@@ -155,40 +189,8 @@
             cmbIdProveedor.Name = "cmbIdProveedor";
             cmbIdProveedor.Size = new Size(180, 30);
             cmbIdProveedor.TabIndex = 52;
-           // cmbIdProveedor.SelectedIndexChanged += this.comboBox1_SelectedIndexChanged;
             // 
-            // Id
-            // 
-            Id.HeaderText = "Id";
-            Id.MinimumWidth = 6;
-            Id.Name = "Id";
-            // 
-            // Tipodemov
-            // 
-            Tipodemov.HeaderText = "Tipo de movimiento";
-            Tipodemov.MinimumWidth = 6;
-            Tipodemov.Name = "Tipodemov";
-            // 
-            // Fecha
-            // 
-            Fecha.HeaderText = "Fecha";
-            Fecha.MinimumWidth = 6;
-            Fecha.Name = "Fecha";
-            // 
-            // Proveedor
-            // 
-            Proveedor.HeaderText = "Id Proveedor";
-            Proveedor.MinimumWidth = 6;
-            Proveedor.Name = "Proveedor";
-            // 
-            // Motivo
-            // 
-            Motivo.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Motivo.HeaderText = "Motivo ";
-            Motivo.MinimumWidth = 6;
-            Motivo.Name = "Motivo";
-            // 
-            // Movimientos
+            // ucMovimientos
             // 
             AutoScaleDimensions = new SizeF(11F, 22F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -207,8 +209,9 @@
             Controls.Add(lblFecha);
             Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Margin = new Padding(4, 3, 4, 3);
-            Name = "Movimientos";
+            Name = "ucMovimientos";
             Size = new Size(1371, 731);
+            Load += ucMovimientos_Load;
             ((System.ComponentModel.ISupportInitialize)dgvProveedor).EndInit();
             ResumeLayout(false);
             PerformLayout();
